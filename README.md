@@ -108,10 +108,12 @@ logos-k/
 │   ├── fair_encoder.py            # Кодировщик для FAIR принципов
 │   └── care_protocol.py           # CARE протокол для этики данных
 ├── examples/                      # Исполняемые примеры
+│   ├── __init__.py
 │   ├── hello.lk                   # Простой пример
 │   ├── journal.lk                 # Журнал трансформации
 │   ├── lambda_genesis.lk          # Полный онтологический цикл
 │   ├── test_lambda_genesis.py     # Тест цикла
+│   ├── omega_boundary.lk          # Ω-автомат в действии
 │   └── nigc_demo.lk               # Демо критерия NIGC
 ├── tests/                         # Тесты
 │   ├── __init__.py
