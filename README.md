@@ -154,7 +154,7 @@ LOGOS-κ реализует прагматику Λ-Универсума:
 
 ## Лицензия и этика
 
-- Лицензия: `CC-BY-SA-4.0` — как и весь Λ-Универсум.
+- Лицензия: `CC BY-NC-SA 4.0` — как и весь Λ-Универсум.
 - Принципы:  
   — FAIR (Findable, Accessible, Interoperable, Reusable)  
   — CARE (Collective benefit, Authority, Responsibility, Ethics)

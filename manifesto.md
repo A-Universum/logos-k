@@ -624,7 +624,7 @@ CARE (для этичных данных):
 ```python
 # В каждом экспорте:
 metadata = {
-    'license': "CC-BY-SA-4.0",           # FAIR + CARE
+    'license': "CC BY-NC-SA 4.0",           # FAIR + CARE
     'provenance': {...},                  # FAIR (R) + CARE (R)
     'community_standards': ["Λ-Протокол 6.0"],  # CARE (A, E)
     'habeas_weights_manifest': {...},    # CARE (E)

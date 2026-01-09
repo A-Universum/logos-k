@@ -42,7 +42,7 @@ class FAIREncoder:
 
             # === ACCESSIBLE ===
             "access_protocol": "open",
-            "access_rights": "CC-BY-SA-4.0",
+            "access_rights": "CC BY-NC-SA 4.0",
             "access_url": "https://a-universum.com/semanticdb",  # базовый URL
             "habeas_weights_manifest": FAIREncoder._encode_habeas_weights(context),
 

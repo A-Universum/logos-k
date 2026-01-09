@@ -76,7 +76,7 @@ class OntologicalAxioms:
     DEFAULT_FAIR_CARE_METADATA: ClassVar[Dict[str, Any]] = {
         "creator": "LOGOS-κ System",
         "created": datetime.utcnow().isoformat() + "Z",
-        "license": "CC-BY-SA-4.0",
+        "license": "CC BY-NC-SA 4.0",
         "format_standard": "JSON-LD",
         "vocabulary": "schema.org",
         "access_protocol": "REST API + GraphQL",

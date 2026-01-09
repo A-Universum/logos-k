@@ -95,7 +95,7 @@ class OntologicalRelation:
         self.fair_care_metadata = {
             "relation_id": self.id,
             "type": "OntologicalRelation",
-            "license": "CC-BY-SA-4.0",
+            "license": "CC BY-NC-SA 4.0",
             "created": self.created.isoformat(),
             "source": self.source,
             "target": self.target,

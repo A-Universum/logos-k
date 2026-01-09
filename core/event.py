@@ -81,7 +81,7 @@ class OntologicalEvent:
         self.fair_care_meta = {
             "event_id": self.id,
             "type": "OntologicalEvent",
-            "license": "CC-BY-SA-4.0",
+            "license": "CC BY-NC-SA 4.0",
             "created": self.timestamp.isoformat(),
             "gesture": self.gesture,
             "creator": "LOGOS-κ System",

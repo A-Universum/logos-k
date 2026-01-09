@@ -65,7 +65,7 @@ class SemanticDBSerializer:
                 'protocol': 'Λ-Протокол 6.0',
                 'created_at': datetime.now().isoformat(),
                 'creator': self.context._operator_id or 'anonymous_operator',
-                'license': 'CC-BY-SA-4.0',
+                'license': 'CC BY-NC-SA 4.0',
                 'fair_care': OntologicalAxioms.get_default_fair_care_metadata()
             },
             'cycle_summary': {
