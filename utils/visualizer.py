@@ -56,7 +56,7 @@ class OntologicalVisualizer:
         try:
             import matplotlib.pyplot as plt
         except ImportError:
-            raise ImportError("Требуется matplotlib. Установите: pip install logos-k-synthetic[visualization]")
+            raise ImportError("Требуется matplotlib. Установите: pip install logos-k[visualization]")
 
         # Позиционирование
         pos = self._get_layout(layout)
@@ -90,7 +90,7 @@ class OntologicalVisualizer:
         try:
             import plotly.graph_objects as go
         except ImportError:
-            raise ImportError("Требуется plotly. Установите: pip install logos-k-synthetic[visualization]")
+            raise ImportError("Требуется plotly. Установите: pip install logos-k[visualization]")
 
         pos = self._get_layout(layout)
 
@@ -156,7 +156,7 @@ class OntologicalVisualizer:
         try:
             from graphviz import Digraph
         except ImportError:
-            raise ImportError("Требуется graphviz. Установите: pip install logos-k-synthetic[visualization]")
+            raise ImportError("Требуется graphviz. Установите: pip install logos-k[visualization]")
 
         dot = Digraph(comment=self.context.name)
         dot.attr(rankdir='LR')
